@@ -1,0 +1,182 @@
+{
+    "0": {
+        "subject": "ENTREP",
+        "teacher": "Gabriella",
+        "start-date": "08/25/2024",
+        "end-date": "09/04/2024",
+        "task-name": "Written Work 2",
+        "submission-type": "Online",
+        "description": "Draft a business plan for expanding your product line, highlighting key market considerations. \n"
+    },
+    "1": {
+        "subject": "ENTREP",
+        "teacher": "Benjamin",
+        "start-date": "04/01/2024",
+        "end-date": "04/08/2024",
+        "task-name": "Quiz 1",
+        "submission-type": "Online",
+        "description": "Test knowledge of key business models & strategies.  Attempt online quiz 1. \n"
+    },
+    "2": {
+        "subject": "LIT12",
+        "teacher": "Isabella",
+        "start-date": "08/25/2024",
+        "end-date": "09/04/2024",
+        "task-name": "Written Work 1",
+        "submission-type": "In-person & Online",
+        "description": "Write a persuasive essay arguing for or against a policy change. Use evidence to support your claims.  \n"
+    },
+    "3": {
+        "subject": "ENTREP",
+        "teacher": "Harrison",
+        "start-date": "01/05/2024",
+        "end-date": "01/12/2024",
+        "task-name": "Performance Task 2",
+        "submission-type": "In-person",
+        "description": "Develop a business plan for launching a new product, pitching it to potential investors.  Present your plan as a formal presentation. \n"
+    },
+    "4": {
+        "subject": "ENTREP",
+        "teacher": "Eleanor",
+        "start-date": "09/30/2024",
+        "end-date": "10/07/2024",
+        "task-name": "Performance Task 1",
+        "submission-type": "In-person & Online",
+        "description": "Develop a business plan for a hypothetical product/service. \n"
+    },
+    "5": {
+        "subject": "PEH12B",
+        "teacher": "Gabriella",
+        "start-date": "06/12/2024",
+        "end-date": "06/22/2024",
+        "task-name": "Quiz 2",
+        "submission-type": "Online",
+        "description": "Read through the provided text and answer the questions.  Online quiz due at the start of class. \n"
+    },
+    "6": {
+        "subject": "RES3",
+        "teacher": "Benjamin",
+        "start-date": "09/30/2024",
+        "end-date": "10/07/2024",
+        "task-name": "Performance Task 1",
+        "submission-type": "In-person & Online",
+        "description": "Res3 students, complete a performance task involving research and presentation \nin both online and in-person settings. \n"
+    },
+    "7": {
+        "subject": "ENTREP",
+        "teacher": "Isabella",
+        "start-date": "03/15/2024",
+        "end-date": "03/22/2024",
+        "task-name": "Written Work 2",
+        "submission-type": "In-person & Online",
+        "description": "Draft marketing materials for a product launch, incorporating both online and in-person strategies.  \n"
+    },
+    "8": {
+        "subject": "PHYS12B",
+        "teacher": "Eleanor",
+        "start-date": "08/25/2024",
+        "end-date": "09/04/2024",
+        "task-name": "Activity 1",
+        "submission-type": "In-person",
+        "description": "Design an experiment to investigate the relationship between variables \nand their effect on measured quantities.  Students will present \ntheir findings in a detailed report.  \n"
+    },
+    "9": {
+        "subject": "RES3",
+        "teacher": "Charlotte",
+        "start-date": "05/07/2024",
+        "end-date": "05/17/2024",
+        "task-name": "Quiz 1",
+        "submission-type": "Online",
+        "description": "Review quiz materials for key concepts, apply knowledge to scenarios. \n"
+    },
+    "10": {
+        "subject": "BIO12B",
+        "teacher": "Isabella",
+        "start-date": "01/05/2024",
+        "end-date": "01/12/2024",
+        "task-name": "Final Assessment",
+        "submission-type": "In-person",
+        "description": "Analyze a short text, identify its purpose and main argument using BIO12B's  insights. \n"
+    },
+    "11": {
+        "subject": "BIO12B",
+        "teacher": "Harrison",
+        "start-date": "05/07/2024",
+        "end-date": "05/17/2024",
+        "task-name": "Written Work 2",
+        "submission-type": "In-person",
+        "description": "Read the provided passage and answer questions about key concepts. Summarize findings using evidence-based arguments. \n"
+    },
+    "12": {
+        "subject": "PHYS12B",
+        "teacher": "Frederick",
+        "start-date": "07/20/2024",
+        "end-date": "07/27/2024",
+        "task-name": "Quiz 1",
+        "submission-type": "Online",
+        "description": "Review Newton's Laws of Motion, apply them to scenarios.  \n"
+    },
+    "13": {
+        "subject": "ENTREP",
+        "teacher": "Charlotte",
+        "start-date": "04/01/2024",
+        "end-date": "04/08/2024",
+        "task-name": "Final Assessment",
+        "submission-type": "In-person & Online",
+        "description": "Analyze a real-world business scenario for feasibility and growth potential.  \n"
+    },
+    "14": {
+        "subject": "RES4",
+        "teacher": "Alice",
+        "start-date": "03/15/2024",
+        "end-date": "03/22/2024",
+        "task-name": "Written Work 1",
+        "submission-type": "Online",
+        "description": "Compose a persuasive paragraph outlining solutions for a common environmental issue. \n"
+    },
+    "15": {
+        "subject": "LIT12",
+        "teacher": "Frederick",
+        "start-date": "01/05/2024",
+        "end-date": "01/12/2024",
+        "task-name": "Activity 2",
+        "submission-type": "In-person",
+        "description": "Analyze historical primary sources, identify biases and arguments. \nLIT12 | Activity 2 | In-person. \n"
+    },
+    "16": {
+        "subject": "MIL",
+        "teacher": "Gabriella",
+        "start-date": "01/05/2024",
+        "end-date": "01/12/2024",
+        "task-name": "Final Assessment",
+        "submission-type": "In-person",
+        "description": "Analyze provided military maps and compare them to historical data \nto determine the likely impact of different battles on territory. \n"
+    },
+    "17": {
+        "subject": "ENTREP",
+        "teacher": "Jonathan",
+        "start-date": "01/05/2024",
+        "end-date": "01/12/2024",
+        "task-name": "Quiz 2",
+        "submission-type": "Online",
+        "description": "Analyze market trends and competitor strategies, then create a potential marketing plan. \n"
+    },
+    "18": {
+        "subject": "PEH12B",
+        "teacher": "Isabella",
+        "start-date": "04/01/2024",
+        "end-date": "04/08/2024",
+        "task-name": "Quiz 1",
+        "submission-type": "Online",
+        "description": "Answer the multiple choice questions on this topic for extra credit! \n"
+    },
+    "19": {
+        "subject": "RES4",
+        "teacher": "Jonathan",
+        "start-date": "06/12/2024",
+        "end-date": "06/22/2024",
+        "task-name": "Performance Task 1",
+        "submission-type": "Online",
+        "description": "Design an innovative solution for improving the efficiency of resource allocation in a real-world scenario.  Online submission required. \n"
+    }
+}
