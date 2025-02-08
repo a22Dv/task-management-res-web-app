@@ -1,1 +1,0 @@
-A task management web application built using React.
