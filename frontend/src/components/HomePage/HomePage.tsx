@@ -72,7 +72,7 @@ function HomePage() {
             </div>
             <div className={styles.footer}>
                 <div className={styles.footerContainer}>
-                    <img src={citLogo} />
+                    <img src={citLogo} className={styles.citLogoFooter} />
                     <div className={styles.contactInfo}>
                         <h2>Contact us</h2>
                         <p>+63 (032) 411 2000</p>
