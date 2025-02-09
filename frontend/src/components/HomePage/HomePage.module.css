@@ -1,0 +1,129 @@
+.homePage {
+    display: flex;
+    flex-direction: column;
+}
+.homePage .entry {
+    background-color: var(--background);
+    min-height: 90vh; /*100 - 10 for header.*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homePage .entry .tagline {
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homePage .entry .tagline .sectioned {
+    width: 30vw;
+    height: min-content;
+}
+.homePage .entry .tagline .sectioned h1 {
+    font-family: var(--font);
+    text-align: left;
+    font-size: 5rem;
+    color: var(--primary);
+}
+.homePage .entry .tagline .sectioned .button {
+    margin: 3rem 0rem;
+    border-radius: 1rem;
+}
+.homePage .entry .tagline .sectioned .button h1 {
+    font-size: 2rem;
+    padding: 1rem;
+    color: var(--background);
+}
+.homePage .entry .tagline .illustration {
+    width: 30vw;
+    height: auto;
+    object-fit: contain;
+}
+.homePage .info {
+    font-family: var(--font);
+    color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homePage .info .textContainer {
+    width: 70vw;
+}
+.homePage .info .highlight {
+    color: var(--secondary);
+}
+.homePage .info .textContainer h1 {
+    color: var(--primary);
+    font-size: 7rem;
+    font-weight: 700;
+}
+.homePage .info .textContainer h3 {
+    color: var(--primary);
+    font-size: 4rem;
+    padding: 5rem 0rem;
+}
+.homePage .info .textContainer p {
+    font-size: 2rem;
+    font-weight: 500;
+    width: 30vw;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.footer .footerContainer {
+    display: flex;
+    width: 60vw;
+    justify-content: space-evenly;
+    align-items: start;
+    font-family: var(--font);
+    color: var(--primary);
+}
+.footer .footerContainer .contactInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.footer .footerContainer .contactInfo h2 {
+    font-size: 2.5rem;
+    padding: 1.5rem 0rem;
+}
+.footer .footerContainer .contactInfo p {
+    font-size: 1.5rem;
+    padding: 0.5rem 0rem;
+    font-weight: 500;
+}
+.footer .footerContainer .contactInfo .socmedButton {
+    padding: 0rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    font-weight: 500;
+
+}
+
+@media (max-width: 768px) {
+    .homePage .entry .tagline {
+        flex-direction: column;
+    }
+    .homePage .entry .tagline .sectioned {
+        width: 60vw;
+    }
+    .homePage .entry .tagline .sectioned h1 {
+        font-size: 2.5rem;
+    }
+    .homePage .entry .tagline .sectioned .button h1 {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    .homePage .entry .tagline .sectioned .button h1 {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    .homePage .entry .tagline .illustration {
+        width: 50vw;
+    }
+}

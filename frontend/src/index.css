@@ -1,0 +1,20 @@
+/* RESET. */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* CUSTOM FONTS */
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --background: #ffffff;
+    --primary: #88292f;
+    --secondary: #f5c118;
+    --font: "Inter";
+}
