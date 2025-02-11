@@ -3,13 +3,22 @@ import { ButtonContainedSX, ButtonTextSX } from "../Buttons/ButtonStyles";
 import { Button } from "@mui/material";
 import styles from "./Header.module.css";
 import { useNavigate } from "react-router-dom";
+import { useAuth } from "../../../contexts/AuthContext";
+
 function Header() {
     const navigate = useNavigate();
+    const { isLoggedIn, logout } = useAuth();
 
     return (
         <div className={styles.header}>
             <div className={styles.logoContainer}>
-                <img src={Logo} className={styles.logo} />
+                <img
+                    src={Logo}
+                    className={styles.logo}
+                    onClick={() => {
+                        navigate("/home");
+                    }}
+                />
             </div>
             <div className={styles.buttonsContainer}>
                 <div className={styles.buttons}>
@@ -49,10 +58,11 @@ function Header() {
                         size="large"
                         className={styles.button}
                         onClick={() => {
+                            isLoggedIn && logout();
                             navigate("/login");
                         }}
                     >
-                        <h3>Login</h3>
+                        <h3>{isLoggedIn ? 'Sign out' : 'Login'}</h3>
                     </Button>
                 </div>
             </div>

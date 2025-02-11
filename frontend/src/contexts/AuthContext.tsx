@@ -12,7 +12,7 @@ const authEndPoint: string = `http://localhost:${apiPort}/auth`
 const defaultContextValue = {
     isLoggedIn: false,
     username: '',
-    login: (_username: string, _password: string) => { },
+    login: (_username: string, _password: string) => Promise.resolve(false),
     logout: () => { },
 }
 const AuthContext = createContext(defaultContextValue);
@@ -22,12 +22,13 @@ export const AuthProvider: React.FC<PropsWithChildren> = ({ children }) => {
     const [username, setUsername] = useState(localStorage.getItem('taskUsername') || ''); // Persistence.
 
     // Login function.
-    const login = async (username: string, password: string) => {
+    const login = async (username: string, password: string): Promise<boolean> => {
         const response = await fetch(`${authEndPoint}?username=${username}&password=${password}`);
         const authData: authResponse = await response.json();
         setIsLoggedIn(authData.isValid);
         authData.isValid && localStorage.setItem('taskUsername', username);
         authData.isValid && setUsername(username);
+        return authData.isValid;
     }
     
     // Log-out function.

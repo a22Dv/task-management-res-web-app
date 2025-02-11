@@ -1,0 +1,7 @@
+.navBar {
+    background-color: var(--primary);
+    min-width: 100%;
+    min-height: 100%;
+    font-family: var(--font);
+    color: var(--background)
+}

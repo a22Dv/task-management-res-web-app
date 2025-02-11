@@ -1,0 +1,15 @@
+.dashboard {
+    display: flex;
+}
+.dashboard .navBar {
+    min-width: 150px;
+}
+.dashboard .content {
+    display: flex;
+    flex-direction: column;
+    min-width: calc(100vw - 150px) /*For navbar*/
+}
+.dashboard .content .main {
+    color: var(--primary);
+    font-family: var(--font);
+}

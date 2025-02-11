@@ -1,0 +1,77 @@
+.loginPage {
+    display: flex;
+    flex-direction: column;
+}
+.loginPage .body {
+    max-height: 90vh;
+    display: flex;
+}
+.loginPage .body .art {
+    height: inherit;
+    min-width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginPage .body .art .illustration {
+    width: 30vw;
+    padding: 5rem;
+}
+.loginPage .body .loginContainer {
+    min-height: 85vh;
+    min-width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginPage .body .loginContainer .loginBox {
+    min-height: 400px;
+    min-width: 400px;
+    transform: translateY(-5vh)
+}
+.loginPage .body .loginContainer .loginBox .greeting {
+    font-size: 2rem;
+    font-family: var(--font);
+    color: var(--primary);
+    padding: 2rem 0rem;;
+}
+.loginPage .body .loginContainer .loginBox .inputFields {
+    display: flex;
+    flex-direction: column;
+}
+.loginPage .body .loginContainer .loginBox .inputFields .inputField {
+    padding: 0.5rem 0rem;
+} 
+.loginPage .body .loginContainer .loginBox .inputFields .loginButton {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}  
+@media (max-width: 768px) {
+    .loginPage .body {
+        flex-direction: column-reverse;
+    }
+    .loginPage .body .art .illustration {
+        width: 50vw;
+        padding: 2rem;
+    }
+    .loginPage .body .loginContainer {
+        min-height: 30vh;
+    }
+    .loginPage .body .loginContainer .loginBox {
+        min-height: 100px;
+        min-width: 100px;
+        transform: translateY(0);
+        padding: 2rem;
+    }
+    .loginPage .body .loginContainer .loginBox .greeting {
+        font-size: 1.5rem;
+        padding: 3rem 0rem 2rem 0rem;
+    }
+    .loginPage .body .loginContainer .loginBox .inputFields .inputField {
+        padding: 0.25rem 0rem;
+    }
+    .loginPage .body .loginContainer .loginBox .inputFields .loginButton {
+        font-size: 1rem;
+    }
+}

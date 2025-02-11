@@ -18,3 +18,7 @@
     --secondary: #f5c118;
     --font: "Inter";
 }
+
+html {
+    scroll-behavior: smooth; 
+}
