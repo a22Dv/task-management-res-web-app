@@ -1,8 +1,11 @@
 .dashboard {
     display: flex;
+    max-height: fit-content;
+    max-width: 100vw;
 }
 .dashboard .navBar {
-    min-width: 150px;
+    min-width: 100px;
+    min-height: 100vh;
 }
 .dashboard .content {
     display: flex;
@@ -12,4 +15,145 @@
 .dashboard .content .main {
     color: var(--primary);
     font-family: var(--font);
+    padding: 0rem 2.2rem;
+    min-height: 84vh;
+}
+.dashboard .content .main .greeting h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    padding: 3rem 0 1rem 0;
+}
+.dashboard .content .main .greetingNote {
+    font-size: 1.5rem;
+}
+.dashboard .content .main .dateBar {
+    padding: 2rem 0;
+    width: 100%;
+}
+.dashboard .content .main .dateBar h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    width: calc(100% - 3rem);
+    background-color: var(--primary);
+    color: var(--background);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin: 1rem 0;
+}
+.dashboard .content .main .dateBar .days {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.dashboard .content .main .dateBar .days .dayCell {
+    background-color: var(--primary);
+    border-radius: 1rem;
+    padding: 2rem;
+    flex-grow: 0.13;
+    color: var(--background);
+    box-shadow: 50px;
+}
+.dashboard .content .main .dateBar .days .dayCell:hover {
+    background-color: var(--secondary);
+    transition: background-color  0.3s ease-in-out;
+
+}
+.dashboard .content .main .dateBar .days .dayCell h3 {
+    font-size: 2rem;
+}
+.dashboard .content .main .dateBar .days .dayCell h4 {
+    font-size: 1.5rem;
+}
+
+.dashboard .content .main .tasks .taskLabel {
+    width: calc(100% - 2rem);
+    padding: 1rem 0rem;
+}
+.dashboard .content .main .tasks .taskLabel h2 {
+    font-size: 3rem;
+}
+.dashboard .content .main .tasks .tasksContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard .content .main .tasks .tasksContainer .taskCell {
+    color: var(--background);
+    background-color: var(--primary);
+    padding: 1rem;
+    border-radius: 1rem;
+    flex-grow: 1;
+    margin: 0 0.5rem;
+    max-width: 400px;
+    transition: background-color 0.3s ease-in-out; 
+}
+.dashboard .content .main .tasks .tasksContainer .taskCell h2 {
+    font-size: 2rem;
+    padding: 0 0 1rem 0;
+}
+.dashboard .content .main .tasks .tasksContainer .taskCell:hover {
+    background-color: var(--secondary);
+    transition: background-color  0.3s ease-in-out;
+}
+.dashboard .content .main .tasks .tasksContainer .taskCell .icon {
+    padding: 0 1rem 0 0;
+}
+.yellowCircle {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--secondary);
+}
+.dayCellday {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width: 1300px) {
+    .dashboard .content .main .dateBar h1 {
+        font-size: 1.5rem;
+    }
+    .dashboard .content .main .greeting h1 {
+        font-size: 2rem;
+    }
+    .dashboard .content .main .dateBar .days .dayCell {
+        padding: 1rem;
+    }
+    .dashboard .content .main .dateBar .days .dayCell h3 {
+        font-size: 1rem;
+    }
+    .dashboard .content .main .dateBar .days .dayCell h4 {
+        font-size: 1rem;
+    }
+    .dashboard .content .main .tasks .tasksContainer {
+        flex-direction: column;
+    }
+    .dashboard .content .main .tasks .tasksContainer .taskCell {
+        margin: 0.5rem;
+    }
+    .dashboard .content .main .tasks .tasksContainer .taskCell h2 {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 768px) {
+    .dashboard {
+        flex-direction: column-reverse;
+        max-height:fit-content;
+    }
+    .dashboard .navBar {
+        min-height: 100px;
+    }
+    .dashboard .content .main {
+        padding: 0.8rem;
+    }
+    .dashboard .content .main .dateBar .days .dayCell {
+        padding: 0.5rem;
+        border-radius: 0.6rem;
+    }
+    .dashboard .content .main .dateBar .days .dayCell h3 {
+        font-size: 0.8rem;
+    }
+    .dashboard .content .main .dateBar .days .dayCell h4 {
+        font-size: 0.5rem;
+    }
 }

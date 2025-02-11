@@ -1,7 +1,57 @@
+/* Temporary */
+
 .navBar {
     background-color: var(--primary);
-    min-width: 100%;
+    min-width: 100px;
     min-height: 100%;
     font-family: var(--font);
-    color: var(--background)
+    color: var(--background);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    position: fixed;
+}
+.navBar .navLinks {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+.navBar .navLinks .navLink {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font);
+    text-decoration: none;
+    color: var(--background);
+    align-items: center;
+    padding: 1rem 0;
+}
+.navBar .navLinks .navLink .navIcon {
+    width: 40px;
+}
+.navBar .navLinks .navLink  .navLabel {
+    color: var(--primary);
+    transition: color ease-in-out 0.3s;
+    padding: 1rem 0rem;
+}
+.navBar .navLinks .navLink:hover .navLabel{
+    color: var(--background);
+    
+}
+@media (max-width: 768px) {
+    .navBar {
+        bottom: 0;
+        left: 0;
+        min-width: 100vw;
+        min-height: 100px;
+    }
+    .navBar .navLinks {
+        flex-direction: row;
+        padding-bottom: 0rem;
+    }
+    .navBar .navLinks .navLink .navIcon {
+        width: 30px;
+    }
+    .navBar .navLinks .navLink .navLabel{
+        padding: 0;
+    }
 }
