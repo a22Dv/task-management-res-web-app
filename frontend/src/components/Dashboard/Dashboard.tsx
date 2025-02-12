@@ -26,7 +26,7 @@ function getDate(): number[][] {
 }
 function Dashboard() {
     const apiPort = 3000;
-    const { username, isLoggedIn } = useAuth();
+    const { username } = useAuth();
     const [tasks, setTasks] = useState<Task[] | null>(null);
     useEffect(() => {
         const getData = async () => {

@@ -10,7 +10,7 @@
 .dashboard .content {
     display: flex;
     flex-direction: column;
-    min-width: calc(100vw - 150px) /*For navbar*/
+    min-width: calc(100vw - 100px) /*For navbar*/
 }
 .dashboard .content .main {
     color: var(--primary);
@@ -156,4 +156,9 @@
     .dashboard .content .main .dateBar .days .dayCell h4 {
         font-size: 0.5rem;
     }
+    .dashboard .content .main .tasks .taskLabel h2 {
+        font-size: 1.5rem;
+        padding-left: 1rem;
+    }
 }
+

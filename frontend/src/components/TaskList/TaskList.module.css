@@ -1,0 +1,87 @@
+.tasklist {
+    display: flex;
+    max-height: fit-content;
+    max-width: 100vw;
+}
+
+.navBar {
+    min-width: 100px;
+    min-height: 100vh;
+}
+.content {
+    display: flex;
+    min-width: calc(100vw - 100px); 
+    flex-direction: column;
+}
+.taskTitle {
+    padding-left: 1.6rem;
+    font-family: var(--font);
+    color: var(--primary);
+}
+.taskTitle h2 {
+    font-size: 3rem;
+    padding: 1rem 0.5rem;
+}
+.taskTitle h4 {
+    font-size: 1.5rem;
+    padding: 1rem 0rem 2rem 0.5rem;
+
+}
+.tasks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    justify-content: space-between;
+    font-family: var(--font);
+    padding-left: 1.6rem;
+}
+.taskCell {
+    color: var(--background);
+    background-color: var(--primary);
+    padding: 1rem;
+    border-radius: 1rem;
+    flex-grow: 1;
+    margin: 0.5rem;
+    max-width: 400px;
+    transition: background-color 0.3s ease-in-out; 
+}
+.taskCell h2 {
+    font-size: 2rem;
+    padding: 0 0 1rem 0;
+}
+.taskCell:hover {
+    background-color: var(--secondary);
+    transition: background-color  0.3s ease-in-out;
+}
+.icon {
+    padding: 0 1rem 0 0;
+}
+.desc {
+    padding: 1rem 0;
+}
+
+@media (max-width:768px) {
+    .taskTitle {
+        padding-top: 2rem;
+    }
+    .taskTitle h2 {
+        font-size: 2rem;  
+    }
+    .taskCell h2 {
+        font-size: 1.5rem;
+    }
+    .taskTitle h4 {
+        font-size: 1.5rem;
+    }
+    .tasklist {
+        flex-direction: column-reverse;
+    }
+    .navBar {
+        min-height: 100px;
+    }
+    .content {
+        min-width: 100vw;
+    }
+    .tasks {
+        padding-right: 1.6rem;
+    }
+}

@@ -15,9 +15,9 @@ function Header() {
                 <img
                     src={Logo}
                     className={styles.logo}
-                    onClick={() => {
+                    onClick={!isLoggedIn ? () => {
                         navigate("/home");
-                    }}
+                    } : () => {}}
                 />
             </div>
             <div className={styles.buttonsContainer}>

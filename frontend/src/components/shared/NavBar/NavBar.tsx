@@ -1,5 +1,4 @@
 import styles from './NavBar.module.css';
-import user from '../../../assets/user.svg';
 import listIcon from '../../../assets/list.svg';
 import homeIcon from '../../../assets/home.svg';
 import { Link } from 'react-router-dom'; 
